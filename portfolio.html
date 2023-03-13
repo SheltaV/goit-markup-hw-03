@@ -11,41 +11,47 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a class="header-logo link" href="./index.html"
-          >Web <span class="header-logo-span">Studio</span></a
-        >
-        <ul class="header-list list">
-          <li>
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="header-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="header-adress">
-        <ul class="header-adress-list list">
-          <li>
-            <a class="header-adress-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="header-adress-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="header-container-nav">
+          <a class="header-logo link" href="./index.html"
+            >Web <span class="header-logo-span">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li>
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="header-link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="header-adress">
+          <ul class="header-adress-list list">
+            <li>
+              <a
+                class="header-adress-link link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header-adress-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="portfolio">
+        <div class="container">
         <h1 class="portfolio-hidden">Portfolio</h1>
         <ul class="portfolio-btn-list list">
           <li><button class="portfolio-btn" type="button">All</button></li>
@@ -63,8 +69,9 @@
               alt="Bank app"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Banking App Interface Concept</h2>
-            <p class="portfolio-list-text">App</p>
+            <p class="portfolio-list-text">App</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -72,8 +79,9 @@
               alt="Cashless payment"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Cashless Payment</h2>
-            <p class="portfolio-list-text">Marketing</p>
+            <p class="portfolio-list-text">Marketing</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -81,8 +89,9 @@
               alt="Meditation app"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Meditation App</h2>
-            <p class="portfolio-list-text">App</p>
+            <p class="portfolio-list-text">App</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -90,8 +99,9 @@
               alt="Taxi service"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Taxi Service</h2>
-            <p class="portfolio-list-text">Marketing</p>
+            <p class="portfolio-list-text">Marketing</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -99,8 +109,9 @@
               alt="Screen illustrations"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Screen Illustrations</h2>
-            <p class="portfolio-list-text">Design</p>
+            <p class="portfolio-list-text">Design</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -108,8 +119,9 @@
               alt="Online cources"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Online Courses</h2>
-            <p class="portfolio-list-text">Marketing</p>
+            <p class="portfolio-list-text">Marketing</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -117,8 +129,9 @@
               alt="Instagram stories"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Instagram Stories Concept</h2>
-            <p class="portfolio-list-text">Design</p>
+            <p class="portfolio-list-text">Design</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -126,8 +139,9 @@
               alt="Organic food"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Organic Food</h2>
-            <p class="portfolio-list-text">Web Site</p>
+            <p class="portfolio-list-text">Web Site</p></div>
           </a></li>
           <li><a href="" class="portfolio-link link">
             <img
@@ -135,19 +149,23 @@
               alt="Fresh coffee"
               width="360"
             />
+            <div class="border">
             <h2 class="portfolio-list-title">Fresh Coffee</h2>
-            <p class="portfolio-list-text">Web Site</p>
+            <p class="portfolio-list-text">Web Site</p></div>
           </a></li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo link" href="./index.html"
-        >Web <span class="footer-logo-span">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="footer-container">
+        <a class="footer-logo link" href="./index.html"
+          >Web <span class="footer-logo-span">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
 </html>
