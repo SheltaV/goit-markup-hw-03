@@ -245,7 +245,7 @@ color: var(--logo-color-2);
 }
 
 .team-div {
-    margin: 32px 0;
+    padding: 32px 0;
 }
 
 /* footer */
@@ -347,7 +347,7 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--logo-color-2);
-
+        margin-bottom: 8px;
     }
 
 .portfolio-list-text {
